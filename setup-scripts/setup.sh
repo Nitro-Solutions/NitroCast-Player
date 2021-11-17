@@ -92,16 +92,16 @@ echo "###########################################"
 sleep 3s
 mkdir /home/pi/nitrocast/
 chmod 777 /home/pi/nitrocast
-echo "wget https://raw.githubusercontent.com/RT-IT/nitrocast/master/localMusic.sh -O /home/pi/nitrocast/localMusic.sh" >> /home/pi/.bashrc
+echo "wget https://raw.githubusercontent.com/Nitro-Solutions/NitroCast-Player/main/localMusic.sh -O /home/pi/nitrocast/localMusic.sh" >> /home/pi/.bashrc
 echo "chmod 777 /home/pi/nitrocast/localMusic.sh" >> /home/pi/.bashrc
 echo "chmod +x /home/pi/nitrocast/localMusic.sh" >> /home/pi/.bashrc
-echo "wget https://raw.githubusercontent.com/RT-IT/nitrocast/master/remoteMusic.sh -O /home/pi/nitrocast/remoteMusic.sh" >> /home/pi/.bashrc
+echo "wget https://raw.githubusercontent.com/Nitro-Solutions/NitroCast-Player/main/remoteMusic.sh -O /home/pi/nitrocast/remoteMusic.sh" >> /home/pi/.bashrc
 echo "chmod 777 /home/pi/nitrocast/remoteMusic.sh" >> /home/pi/.bashrc
 echo "chmod +x /home/pi/nitrocast/remoteMusic.sh" >> /home/pi/.bashrc
-echo "wget https://raw.githubusercontent.com/RT-IT/nitrocast/master/noMusic.sh -O /home/pi/nitrocast/noMusic.sh" >> /home/pi/.bashrc
+echo "wget https://raw.githubusercontent.com/Nitro-Solutions/NitroCast-Player/main/noMusic.sh -O /home/pi/nitrocast/noMusic.sh" >> /home/pi/.bashrc
 echo "chmod 777 /home/pi/nitrocast/noMusic.sh" >> /home/pi/.bashrc
 echo "chmod +x /home/pi/nitrocast/noMusic.sh" >> /home/pi/.bashrc
-echo "wget https://raw.githubusercontent.com/RT-IT/nitrocast/master/connectivity.sh -O /home/pi/nitrocast/connectivity.sh" >> /home/pi/.bashrc
+echo "wget https://raw.githubusercontent.com/Nitro-Solutions/NitroCast-Player/main/connectivity.sh -O /home/pi/nitrocast/connectivity.sh" >> /home/pi/.bashrc
 echo "chmod 777 /home/pi/nitrocast/connectivity.sh" >> /home/pi/.bashrc
 echo "chmod +x /home/pi/nitrocast/connectivity.sh" >> /home/pi/.bashrc
 echo "amixer sset 'Master' 65%" >> /home/pi/.bashrc
