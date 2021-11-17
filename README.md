@@ -7,7 +7,7 @@ Pi Music Player for Stores
 ### On Pi 🥧
 
 ```
-curl https://raw.githubusercontent.com/RT-IT/nitrocast/master/setup-scripts/setup.sh
+curl https://raw.githubusercontent.com/Nitro-Solutions/NitroCast-Player/master/setup-scripts/setup.sh
 chmod +x ./setup.sh
 sudo ./setup.sh -s "<sitename>"
 ```
